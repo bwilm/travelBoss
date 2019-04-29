@@ -1,0 +1,14 @@
+.logo{
+  height: 140px;
+  width: 140px;
+  padding-top: 10px;
+}
+
+.logo-container{
+  margin-right: 40px;
+  width: 100%;
+}
+
+mat-toolbar{
+  height: 96px;
+}
