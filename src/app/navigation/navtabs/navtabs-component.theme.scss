@@ -1,0 +1,16 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-component-theme($travelboss) {
+
+  $primary: map-get($travelboss, primary);
+  $accent: map-get($travelboss, accent );
+
+  //All theming styles here
+
+
+  .navtabs-container{
+    background-color: mat-color($travelboss-primary, 200);
+  }
+
+
+};
